@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './navbar.css';
-import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
+// import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
 import {GiHamburgerMenu } from "react-icons/gi";
 // import { NavLink } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ const Navbar = () =>{
                     </ul>
                 </div>
                 <div className="social-media">
-                    <ul className="social-media-desktop">
+                    {/* <ul className="social-media-desktop">
                         <li>
                             <a href="https://twitter.com/" target="twitter"><FaTwitterSquare className="twitter"/></a>
                         </li>
@@ -46,7 +46,7 @@ const Navbar = () =>{
                         <li>
                             <a href="https://facebook.com/" target="twitter"><FaFacebookSquare className="facebook"/></a>
                         </li>
-                    </ul>
+                    </ul> */}
 
                     <div className="hamburger-menu">
                             <div onClick = { () => setShowMediaIcons(!showMediaIcons) } >

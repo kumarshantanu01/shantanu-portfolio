@@ -29,7 +29,7 @@ li {
   height: 7rem;
   display: grid;
   background-color: #091C34;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  grid-template-columns: 10rem 1fr 2fr 2.5fr 10rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -43,7 +43,7 @@ li {
 }
 
 .menu-link {
-  grid-column: 3/4;
+  grid-column: 4/4;
 }
 
 .menu-link ul {
@@ -79,7 +79,7 @@ li {
     font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+    background: -webkit-linear-gradient(rgb(255, 255, 255, 0.8), rgba(205, 255, 25, 0.9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -90,7 +90,7 @@ li {
   
   .menu-link ul li {
     font-size: 1.8rem;
-    
+    /* padding-right: 10rem; */
   }
   
   .menu-link ul li a {
@@ -151,7 +151,7 @@ li {
   @media (max-width: 1080px) {
     .main-nav {
       height: 8rem;
-      grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+      grid-template-columns: 2rem 3fr 3fr 4fr 2rem;
     }
   
     .logo,
