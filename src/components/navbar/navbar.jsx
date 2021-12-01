@@ -50,7 +50,7 @@ const Navbar = () =>{
 
                     <div className="hamburger-menu">
                             <div onClick = { () => setShowMediaIcons(!showMediaIcons) } >
-                                <GiHamburgerMenu/>
+                                <GiHamburgerMenu color='#f6f6f6'/>
                             </div>
                     </div>
 
