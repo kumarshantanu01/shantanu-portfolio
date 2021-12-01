@@ -1,5 +1,5 @@
 import React from "react";
-import './hero.scss';
+import './hero.css';
 import { Button, Link } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
