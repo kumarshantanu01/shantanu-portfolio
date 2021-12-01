@@ -1,5 +1,5 @@
 import React from "react";
-import './hero.css';
+import './hero.scss';
 import { Button, Link } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
@@ -58,6 +58,9 @@ const Hero = () =>{
             <div className='rightsection'>
                 <div className="imagesection">
                     <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638359763/shantanu-portfolio/Kumar_Shantanu_y3ktwt.jpg" alt='shantanu pic'/>
+                </div>
+                <div className="wavessvg">
+                    <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638368137/shantanu-portfolio/waves_gbzh3x.svg" alt="wavessvg"/>
                 </div>
             </div>
         </div>
