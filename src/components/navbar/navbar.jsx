@@ -36,17 +36,6 @@ const Navbar = () =>{
                     </ul>
                 </div>
                 <div className="social-media">
-                    {/* <ul className="social-media-desktop">
-                        <li>
-                            <a href="https://twitter.com/" target="twitter"><FaTwitterSquare className="twitter"/></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/" target="twitter"><FaInstagramSquare className="instagram"/></a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/" target="twitter"><FaFacebookSquare className="facebook"/></a>
-                        </li>
-                    </ul> */}
 
                     <div className="hamburger-menu">
                             <div onClick = { () => setShowMediaIcons(!showMediaIcons) } >
