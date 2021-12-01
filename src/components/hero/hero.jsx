@@ -6,8 +6,14 @@ import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/ico
 
 const useStyles = makeStyles({
     button:{
-        backgroundColor: "#1AB394",
+        backgroundColor: "#C6FF00",
         padding: "1rem",
+        fontSize: "12px",
+        fontWeight: "bold",
+        '&:hover': {
+            backgroundColor: '#091C34',
+            color: '#C6FF00',
+        },
     }
 });
 
@@ -17,23 +23,25 @@ const Hero = () =>{
         <>
         <div className='herosection'>
             <div className='leftsection'>
-                <div className="text-container">
-                    <h2>Hello</h2>
-                    <h1>I am Kumar Shantanu</h1>
+                <div className="textcontainer">
+                    <h2>Hello,</h2>
+                    <h1>I am <span>Kumar Shantanu</span></h1>
                     <h2>I am a web developer</h2>
                     <Button className={classes.button}>Download Resume</Button>
                 </div>
-                <div className="social-mediacontainer">
-                    <GitHub/>
-                    <LinkedIn/>
-                    <Twitter/>
-                    <Instagram/>
-                    <Facebook/>
+                <div className="socialmediacontainer">
+                    <div className="socialmediaicons">
+                        <GitHub style={{ fontSize: 28 }}/>
+                        <LinkedIn style={{ fontSize: 30 }}/>
+                        <Twitter style={{ fontSize: 30 }}/>
+                        <Instagram style={{ fontSize: 30 }}/>
+                        <Facebook style={{ fontSize: 30 }}/>
+                    </div>
                 </div>
             </div>
             <div className='rightsection'>
                 <div className="imagesection">
-                    <img src="https://res.cloudinary.com/webwiznitr/image/upload/v1628944049/webwiz-portfolio/team-images/team-webwiz/kumar%20shantanu.jpg" alt='shantanu pic'/>
+                    <img src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638359763/shantanu-portfolio/Kumar_Shantanu_y3ktwt.jpg" alt='shantanu pic'/>
                 </div>
             </div>
         </div>
