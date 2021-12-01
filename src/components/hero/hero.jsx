@@ -4,7 +4,10 @@ import React from "react";
 const Hero = () =>{
     return(
         <>
-        Hero
+        <div>
+            <h1>hero</h1>
+        </div>
+            
         </>
     );
 }
