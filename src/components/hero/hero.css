@@ -56,3 +56,27 @@
     width: 450px;
     border-radius: 300px;
 }
+
+@media(max-width: 1000px){
+    .imagesection img{
+        width: 350px;
+    }
+}
+
+@media(max-width: 750px){
+    .herosection{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 600px){
+    .imagesection img{
+        width: 250px;
+    }
+    .leftsection{
+        width: 100%;
+    }
+}
