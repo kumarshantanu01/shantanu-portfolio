@@ -74,4 +74,9 @@ export const Text = styled.div`
     color: #f2f2f2;
     font-size: 20px;
     padding-top: 0.5rem;
+
+    &:hover {
+        color: #C6FF00;
+        cursor: pointer;
+    }
 `

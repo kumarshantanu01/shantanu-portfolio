@@ -10,6 +10,7 @@ const useStyles = makeStyles({
         fontSize: '60px',
         alignItems: 'center',
         justifyContent: 'center',
+        color: '#C6FF00',
     },
 });
 
