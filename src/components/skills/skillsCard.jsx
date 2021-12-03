@@ -1,20 +1,18 @@
-
 import React from "react";
 import './skills.css';
+import { Cardlogos, Text } from "./skillsElement";
 
 const Skillscard = (props) =>{
     return(
         <>
-    
-            <div className="card">
+            <Cardlogos>
                 <div className="icon">
                     <img src={props.logo} alt='logo'/>
                 </div>
                 <div className="logoname">
-                <h2>{props.logoname}</h2>
+                    <Text>{props.logoname}</Text>
                 </div>
-            </div>
-        
+            </Cardlogos>
         </>
     )
 }

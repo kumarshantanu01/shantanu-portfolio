@@ -1,4 +1,17 @@
 const SkillsIcon = [
+
+    {
+        id: '1',
+        logoname: 'C',
+        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638555836/shantanu-portfolio/logo/C_ou6oa8.png',
+    },
+
+    {
+        id: '1',
+        logoname: 'C++',
+        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638555631/shantanu-portfolio/logo/C_bk0qcf.png',
+    },
+
     {
         id: '1',
         logoname: 'HTML',
@@ -30,12 +43,6 @@ const SkillsIcon = [
     },
 
     {
-        id: '6',
-        logoname: 'GITHUB',
-        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638523193/shantanu-portfolio/logo/github_s5fqga.svg',
-    },
-
-    {
         id: '7',
         logoname: 'MONGODB',
         logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638523194/shantanu-portfolio/logo/mongodb_1_lwic5t.svg',
@@ -48,9 +55,23 @@ const SkillsIcon = [
     },
 
     {
+        id: '6',
+        logoname: 'GITHUB',
+        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638523193/shantanu-portfolio/logo/github_s5fqga.svg',
+    },
+
+
+    {
+        id: '12',
+        logoname: 'BOOTSTRAP',
+        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638554463/shantanu-portfolio/logo/BOOTSTRAP_odue6k.png',
+    },
+
+
+    {
         id: '9',
         logoname: 'FIGMA',
-        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638523854/shantanu-portfolio/logo/FIGMA_aeccir.png',
+        logo: 'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638555834/shantanu-portfolio/logo/FIGMA_hp9y7q.png',
     },
 
     {

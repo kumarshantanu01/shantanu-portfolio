@@ -38,7 +38,7 @@ const Skills = () =>{
                         
                         <SkillsImage>
                             <div className='imageskills'>
-                                <img src='https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638525890/shantanu-portfolio/logo/image-removebg-preview_30_b4gnt1.png' alt='png'></img>
+                                <img src='https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638553790/shantanu-portfolio/image-removebg-preview_30_1_kjqnt0.svg' alt='png'></img>
                             </div>
                         </SkillsImage>
                     
