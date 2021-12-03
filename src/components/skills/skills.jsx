@@ -3,25 +3,28 @@ import React from "react";
 import './skills.css';
 import Skillscard from "./skillsCard";
 import SkillsIcon from "./skillsIcon";
+import { Heading, SkillsBox, SkillsContainer, SkillsImage, SkillsLogo, Skillssection } from "./skillsElement";
 
 const useStyles = makeStyles({
-    heading:{
+    text:{
         fontSize: '60px',
-    }
-})
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
 
 const Skills = () =>{
     const classes = useStyles();
     return(
         <>
-            <div className='skillssection'>
-                <div className="heading">
-                    <Typography className={classes.heading}>Skills</Typography>
-                </div>
+            <Skillssection>
+                <Heading>
+                    <Typography className={classes.text}>Skills</Typography>
+                </Heading>
 
-                <div className='containerskills'>
-                        <div className='skillslogo'>
-                            <div className='skillsbox'>
+                <SkillsContainer>
+                        <SkillsBox>
+                            <SkillsLogo>
                                 {SkillsIcon.map(function ncards(val){
                                     return(
                                         <Skillscard
@@ -30,17 +33,18 @@ const Skills = () =>{
                                         />
                                     )
                                 })}
-                            </div>  
-                        </div>
+                            </SkillsLogo>
+                        </SkillsBox>  
                         
-                        <div className='imageskills'>
-                            <img src='https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638525890/shantanu-portfolio/logo/image-removebg-preview_30_b4gnt1.png' alt='png'></img>
-                        </div>
-                
+                        <SkillsImage>
+                            <div className='imageskills'>
+                                <img src='https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638525890/shantanu-portfolio/logo/image-removebg-preview_30_b4gnt1.png' alt='png'></img>
+                            </div>
+                        </SkillsImage>
                     
-                </div>
+                </SkillsContainer>
        
-        </div>    
+        </Skillssection>    
     </>
     )
 }
