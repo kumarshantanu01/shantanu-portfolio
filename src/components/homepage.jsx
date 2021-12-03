@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./hero/hero";
 import Navbar from "./navbar/navbar";
 import Aboutme from "./aboutMe/aboutMe";
+import Skills from "./skills/skills";
 import './scrollbar.css'
 
 const Homepage = () =>{
@@ -10,6 +11,7 @@ const Homepage = () =>{
         <Navbar/>
         <Hero/>
         <Aboutme/>
+        <Skills/>
     </>
     );
 }
