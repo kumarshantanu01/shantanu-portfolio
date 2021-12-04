@@ -2,7 +2,7 @@ import React from 'react';
 import Color from 'color';
 // import GoogleFont from 'react-google-font-loader';
 import { makeStyles } from '@material-ui/core/styles';
-import { Button, Grid } from '@material-ui/core';
+import { Button, Grid, Link } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Card from '@material-ui/core/Card';
@@ -68,16 +68,20 @@ const useStyles = makeStyles(() => ({
   button:{
     borderRadius: 5,
     backgroundColor: "#c6ff00",
-        // padding: "18px 36px",
-    fontSize: 10,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     marginTop: '1rem',
     '&:hover': {
       backgroundColor: "#c6ff00",
     }
+  },
+  buttontext:{
+      fontSize: 10,
   }
 }));
 
-const CustomCard = ({ classes, image, title, subtitle, useStyles }) => {
+const CustomCard = ({ classes, image, title, subtitle, linksource, linklive }) => {
   const mediaStyles = useFourThreeCardMediaStyles();
   return (
     <CardActionArea className={classes.actionArea}>
@@ -89,8 +93,12 @@ const CustomCard = ({ classes, image, title, subtitle, useStyles }) => {
           </Typography>
           <Typography className={classes.subtitle}>{subtitle}</Typography>
           <Buttonsproject>
-            <Button className={classes.button}>Source Code</Button>
-            <Button className={classes.button}>View Live</Button>
+            <Link className={classes.button} href={linksource} target="_blank">
+                <Button className={classes.buttontext}>Source Code</Button>
+            </Link>
+            <Link className={classes.button} href={linklive} target="_blank">
+                <Button className={classes.buttontext}>View Live</Button>
+            </Link>
           </Buttonsproject>
         </CardContent>
       </Card>
@@ -113,6 +121,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles}
             title={'ALCOVE'}
             subtitle={'Alcove is a one-stop solution to all your interior design needs.'}
+            linksource={'https://github.com/kumarshantanu01/alcove'}
+            linklive={'https://alcove-istebits.netlify.app/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1631280213/Alcove%20spider/alcove_iste_bits_tzh4l3.png'
             }
@@ -123,6 +133,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles2}
             title={'DRONA'}
             subtitle={`Empowering everyone to code with IBM's eye.`}
+            linksource={'https://github.com/kumarshantanu01/drona'}
+            linklive={'https://drona-gamma.vercel.app/'}
             image={
               'https://user-images.githubusercontent.com/67703407/142220333-fdbd52ab-f248-4bc3-a2e9-5d6ef5dc230f.png'
             }
@@ -133,6 +145,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles3}
             title={'ICPCM-2021'}
             subtitle={'Website of 3rd International Conference on Processing and Characterizatoin of Materials.'}
+            linksource={'https://github.com/kumarshantanu01/ICPCM-2021'}
+            linklive={'https://icpcm.netlify.app/'}
             image={'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638616296/shantanu-portfolio/PROJECTS/icpcm2021_ui_idkzcn.png'}
           />
         </Grid>
@@ -141,6 +155,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles4}
             title={'WEBWIZ PORTFOLIO'}
             subtitle={`Website of 'Webwiz - Technical Club of NITR'`}
+            linksource={'https://github.com/kumarshantanu01/webwiz-portfolio'}
+            linklive={'https://webwiznitr.netlify.app/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638616292/shantanu-portfolio/PROJECTS/webwiz-portfolio-ui_mw5hkt.png'
             }
@@ -151,6 +167,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles}
             title={'INSHORTS CLONE'}
             subtitle={'Clone of the ishorts website made using React.'}
+            linksource={'https://github.com/kumarshantanu01/inshorts-clone'}
+            linklive={'https://inshorts-clone-ks.netlify.app/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638616292/shantanu-portfolio/PROJECTS/Inshorts_Clone_UI_cxw59p.png'
             }
@@ -161,6 +179,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles2}
             title={'DINOCARE'}
             subtitle={'Predicts the personality of the user and matches it to the characteristics of a Dinosaur.'}
+            linksource={'https://github.com/kumarshantanu01/dinocare'}
+            linklive={'https://dinocare.netlify.app/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638616317/shantanu-portfolio/PROJECTS/DINOCARE-UI_fcdh36.png'
             }
@@ -171,6 +191,8 @@ export const ProjectCard = React.memo(function SolidGameCard() {
             classes={styles3}
             title={'QUOTE GENERATOR'}
             subtitle={'Quote generator website, displays data using API.'}
+            linksource={'https://github.com/kumarshantanu01/quote-generator'}
+            linklive={'https://quote-generator-ks.netlify.app/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638617461/shantanu-portfolio/PROJECTS/quote-gen-ui_visi7s.png'
             }
@@ -179,8 +201,10 @@ export const ProjectCard = React.memo(function SolidGameCard() {
         <Grid item>
           <CustomCard
             classes={styles4}
-            title={'Rock-Paper-Scissors'}
+            title={'ROCK-PAPER-SCISSORS'}
             subtitle={'Play the Rock paper scissors game against the computer.'}
+            linksource={'https://github.com/kumarshantanu01/Rock-Paper-Scissors'}
+            linklive={'https://kumarshantanu01.github.io/Rock-Paper-Scissors/'}
             image={
               'https://res.cloudinary.com/dzbdnlr0f/image/upload/v1638616877/shantanu-portfolio/PROJECTS/rock_game_ui_fjf7fc.png'
             }
