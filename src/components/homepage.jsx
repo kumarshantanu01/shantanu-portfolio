@@ -3,6 +3,7 @@ import Hero from "./hero/hero";
 import Navbar from "./navbar/navbar";
 import Aboutme from "./aboutMe/aboutMe";
 import Skills from "./skills/skills";
+import Projects from "./projects/projects";
 import './scrollbar.css'
 
 const Homepage = () =>{
@@ -12,6 +13,7 @@ const Homepage = () =>{
         <Hero/>
         <Aboutme/>
         <Skills/>
+        <Projects/>
     </>
     );
 }
