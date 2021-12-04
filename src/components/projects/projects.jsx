@@ -1,9 +1,16 @@
+
 import React from "react";
+
+import { Projectssection, Text } from "./projectElements";
+import ProjectCard from "./projectsSection";
 
 const Projects = () => {
     return(
         <>
-        Projects
+            <Projectssection>
+                <Text>PROJECTS</Text>
+                <ProjectCard/>
+            </Projectssection>
         </>
     )
 }
