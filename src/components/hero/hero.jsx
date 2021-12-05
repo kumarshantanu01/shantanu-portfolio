@@ -7,12 +7,30 @@ import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from "@material-ui/ico
 const useStyles = makeStyles({
     button:{
         backgroundColor: "#C6FF00",
+        width: '289px',
         padding: "1rem",
         fontSize: "12px",
         fontWeight: "bold",
         '&:hover': {
             backgroundColor: '#091C34',
             color: '#C6FF00',
+            textDecoration: 'none',
+        },
+    },
+
+    resumebutton:{
+        button:{
+            backgroundColor: "#C6FF00",
+            // width: '277px',
+            padding: "1rem",
+            fontSize: "12px",
+            fontWeight: "bold",
+            '&:hover': {
+                backgroundColor: '#091C34',
+                color: '#C6FF00',
+                // textdecoration: 'none',
+                textDecoration: 'none',
+            },
         },
     },
 
@@ -33,7 +51,10 @@ const Hero = () =>{
                     <h2>Hello,</h2>
                     <h1>I am <span>Kumar Shantanu</span></h1>
                     <h2>I am a web developer</h2>
+
+                    <Link href='https://drive.google.com/file/d/1i7LhnoBWUOX9Kn0QYn-jQFIrtE3qxXEJ/view?usp=sharing' target="_blank" className={classes.resumebutton}>
                     <Button className={classes.button}>Download Resume</Button>
+                    </Link>
                 </div>
                 <div className="socialmediacontainer">
                     <div className="socialmediaicons" >
