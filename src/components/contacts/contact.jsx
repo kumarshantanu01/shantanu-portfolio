@@ -16,7 +16,7 @@ const Contact = () =>{
     const classes = useStyles();
     return(
         <>
-        <Contactsection>
+        <Contactsection id="contact">
 
             <ContactsectionTop>
 

@@ -45,7 +45,7 @@ const Hero = () =>{
     const classes = useStyles();
     return(
         <>
-        <div className='herosection'>
+        <div id="home" className='herosection'>
             <div className='leftsection'>
                 <div className="textcontainer">
                     <h2>Hello,</h2>

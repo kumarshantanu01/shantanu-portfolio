@@ -18,7 +18,7 @@ const Skills = () =>{
     const classes = useStyles();
     return(
         <>
-            <Skillssection>
+            <Skillssection id='skills'>
                 <Heading>
                     <Typography className={classes.text}>Skills</Typography>
                 </Heading>

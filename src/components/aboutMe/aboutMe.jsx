@@ -4,7 +4,7 @@ import './aboutme.css'
 const Aboutme = () =>{
     return(
         <>
-            <div className="aboutme">
+            <div id="aboutme" className="aboutme">
                 <div className="container">
                     <div className="text" style={{ color: '#f2f2f2' }}>
                         <h2>Hola, I’m Kumar Shantanu!</h2>

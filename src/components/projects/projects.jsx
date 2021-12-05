@@ -7,7 +7,7 @@ import ProjectCard from "./projectsSection";
 const Projects = () => {
     return(
         <>
-            <Projectssection>
+            <Projectssection id="projects">
                 <Text>PROJECTS</Text>
                 <ProjectCard/>
             </Projectssection>

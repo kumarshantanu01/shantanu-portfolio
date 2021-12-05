@@ -3,6 +3,7 @@ import './navbar.css';
 // import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
 import {GiHamburgerMenu } from "react-icons/gi";
 // import { NavLink } from 'react-router-dom';
+import {HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () =>{
 
@@ -12,26 +13,28 @@ const Navbar = () =>{
             <nav className="main-nav">
                 <div className='logo'>
                     <h2>
+                    <Link smooth to="#home">
                         <span>K</span>umar
                         <span>S</span>hantanu
+                    </Link>
                     </h2>
                 </div>
                 <div className= {showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                     <ul>
                         <li>
-                           <a href="/hero"> Home</a>
+                           <Link smooth to="#home"> Home</Link>
                         </li>
                         <li>
-                        <a href="aa"> About Me</a>
+                            <Link smooth to="#aboutme"> About Me</Link>
                         </li>
                         <li>
-                        <a href="aa"> Skills</a>
+                            <Link smooth to="#skills"> Skills</Link>
                         </li>
                         <li>
-                        <a href="aa"> Projects</a>
+                            <Link smooth to="#projects"> Projects</Link>
                         </li>
                         <li>
-                        <a href="aa"> Contact</a>
+                            <Link smooth to="#contact"> Contact</Link>
                         </li>
                     </ul>
                 </div>
