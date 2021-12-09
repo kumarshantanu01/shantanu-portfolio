@@ -27,7 +27,7 @@ export const CardEducation = styled.div`
     height: 30vh;
     border-radius: 16px;
     /* background: #004E64; */
-    background: linear-gradient(103.84deg, #004E64 3.07%, #007C78 98.55%);
+    background: linear-gradient(259.12deg, #007C78 9.42%, #002539 73.13%);
     display: flex;
     flex-direction: row;
     margin: 2rem 0 2rem 0;
