@@ -31,6 +31,9 @@ const Navbar = () =>{
                             <Link smooth to="#skills"> Skills</Link>
                         </li>
                         <li>
+                            <Link smooth to="#resume"> Resume</Link>
+                        </li>
+                        <li>
                             <Link smooth to="#projects"> Projects</Link>
                         </li>
                         <li>
