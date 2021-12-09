@@ -58,9 +58,9 @@ const Education = () => {
                     <TextSection>
                         <InstituteName>Notre Dame Academy, Munger</InstituteName>
                         <Degree>Matriculation</Degree>
-                        {/* <Branch>Electrical Engineering</Branch> */}
+                        {/* <Branch></Branch> */}
                         <Location>Munger, Bihar, India</Location>
-                        <Year>2008 - 2018</Year>
+                        <Year>2009 - 2018</Year>
                     </TextSection>
 
                 </CardEducation>

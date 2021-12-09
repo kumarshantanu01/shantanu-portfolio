@@ -32,6 +32,12 @@ export const CardEducation = styled.div`
     flex-direction: row;
     margin: 2rem 0 2rem 0;
     overflow: hidden;
+
+    @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    }
 `
 
 export const Imagesection = styled.div`
@@ -39,7 +45,10 @@ export const Imagesection = styled.div`
     overflow: hidden;
     display: flex;
     justify-content: center;
-    /* z-index: 0; */
+    
+    @media only screen and (max-width: 900px) {
+    width: 100%;
+    }
 `
 
 export const TextSection = styled.div`
@@ -50,6 +59,10 @@ export const TextSection = styled.div`
     /* align-items: center; */
     justify-content: center;
     padding: 2rem;
+
+    @media only screen and (max-width: 900px) {
+    width: 100%;
+    }
 `
 
 export const InstituteName = styled.div`
