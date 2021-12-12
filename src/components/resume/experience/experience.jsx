@@ -1,53 +1,61 @@
 import React from "react";
 import './experience.css';
+import { Heading, Timelinebox, Timelinedot, Timelinesection, Timelinesectionbottom, Timelinesectiontop, Timelinedate, Timelinecontent, Subheading, Text } from "./experienceElements";
 
 const Experience = () => {
     return(
         <>
-        <section class="timeline-section">
-            <div class="timeline-items">
-                <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>Title</h3>
-                    <p> WRITING ABOUT MY EXPERIENCE </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>Title</h3>
-                    <p> WRITING ABOUT MY EXPERIENCE </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>Title</h3>
-                    <p> WRITING ABOUT MY EXPERIENCE </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>Title</h3>
-                    <p> WRITING ABOUT MY EXPERIENCE </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>Title</h3>
-                    <p> WRITING ABOUT MY EXPERIENCE </p>
-                </div>
-            </div>
-            </div>
-        </section>
+        <Timelinesection>
+
+            <Timelinesectiontop>
+                <Heading>Experience</Heading>
+            </Timelinesectiontop>
+
+            <Timelinesectionbottom>
+                <Timelinebox>
+                    <div class='timeline-items'>
+
+                        <div class="timeline-item">
+                        <Timelinedot></Timelinedot>
+                        <Timelinedate>2020</Timelinedate>
+                            <Timelinecontent>
+                                <Subheading>Title</Subheading>
+                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                            </Timelinecontent>
+                        </div>
+
+                        <div class="timeline-item">
+                        <Timelinedot></Timelinedot>
+                        <Timelinedate>2020</Timelinedate>
+                            <Timelinecontent>
+                                <Subheading>Title</Subheading>
+                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                            </Timelinecontent>
+                        </div>
+
+                        <div class="timeline-item">
+                        <Timelinedot></Timelinedot>
+                        <Timelinedate>2020</Timelinedate>
+                            <Timelinecontent>
+                                <Subheading>Title</Subheading>
+                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                            </Timelinecontent>
+                        </div>
+
+                        <div class="timeline-item">
+                        <Timelinedot></Timelinedot>
+                        <Timelinedate>2020</Timelinedate>
+                            <Timelinecontent>
+                                <Subheading>Title</Subheading>
+                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                            </Timelinecontent>
+                        </div>
+
+                    </div>
+                </Timelinebox>
+            </Timelinesectionbottom>
+
+        </Timelinesection>
         </>
     )
 }
