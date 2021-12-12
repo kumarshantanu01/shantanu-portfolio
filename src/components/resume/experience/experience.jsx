@@ -1,6 +1,6 @@
 import React from "react";
 import './experience.css';
-import { Heading, Timelinebox, Timelinedot, Timelinesection, Timelinesectionbottom, Timelinesectiontop, Timelinedate, Timelinecontent, Subheading, Text, Subheading2 } from "./experienceElements";
+import { Heading, Timelinebox, Timelinedot, Timelinesection, Timelinesectionbottom, Timelinesectiontop, Timelinedate, Timelinecontent, Subheading, /*Text, */  Subheading2 } from "./experienceElements";
 
 const Experience = () => {
     return(
