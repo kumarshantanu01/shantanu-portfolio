@@ -53,6 +53,14 @@ export const Timelinecontent  = styled.div`
 export const Subheading  = styled.div`
     font-size: 20px;
 	color: #ffffff;
+	/* margin:0 0 10px; */
+	text-transform: capitalize;
+	font-weight: 500;
+`
+
+export const Subheading2  = styled.div`
+    font-size: 20px;
+	color: #c6ff00;
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;

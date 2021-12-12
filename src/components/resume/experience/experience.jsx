@@ -1,6 +1,6 @@
 import React from "react";
 import './experience.css';
-import { Heading, Timelinebox, Timelinedot, Timelinesection, Timelinesectionbottom, Timelinesectiontop, Timelinedate, Timelinecontent, Subheading, Text } from "./experienceElements";
+import { Heading, Timelinebox, Timelinedot, Timelinesection, Timelinesectionbottom, Timelinesectiontop, Timelinedate, Timelinecontent, Subheading, Text, Subheading2 } from "./experienceElements";
 
 const Experience = () => {
     return(
@@ -15,39 +15,43 @@ const Experience = () => {
                 <Timelinebox>
                     <div class='timeline-items'>
 
-                        <div class="timeline-item">
+                        {/* <div class="timeline-item">
                         <Timelinedot></Timelinedot>
-                        <Timelinedate>2020</Timelinedate>
+                        <Timelinedate>2021</Timelinedate>
                             <Timelinecontent>
                                 <Subheading>Title</Subheading>
+                                <Subheading2></Subheading2>
                                 <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                            </Timelinecontent>
+                        </div> */}
+
+                        <div class="timeline-item">
+                        <Timelinedot></Timelinedot>
+                        <Timelinedate>Aug 2021 - present</Timelinedate>
+                            <Timelinecontent>
+                                <Subheading>Coordinator</Subheading>
+                                <Subheading2>WEBWIZ</Subheading2>
+                                {/* <Text>WRITING ABOUT MY EXPERIENCE</Text> */}
                             </Timelinecontent>
                         </div>
 
                         <div class="timeline-item">
                         <Timelinedot></Timelinedot>
-                        <Timelinedate>2020</Timelinedate>
+                        <Timelinedate>Sep 2021 - present</Timelinedate>
                             <Timelinecontent>
-                                <Subheading>Title</Subheading>
-                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                                <Subheading>Student Ambassador</Subheading>
+                                <Subheading2>AngelHack</Subheading2>
+                                {/* <Text>WRITING ABOUT MY EXPERIENCE</Text> */}
                             </Timelinecontent>
                         </div>
 
                         <div class="timeline-item">
                         <Timelinedot></Timelinedot>
-                        <Timelinedate>2020</Timelinedate>
+                        <Timelinedate>April 2021 - Sep 2021</Timelinedate>
                             <Timelinecontent>
-                                <Subheading>Title</Subheading>
-                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
-                            </Timelinecontent>
-                        </div>
-
-                        <div class="timeline-item">
-                        <Timelinedot></Timelinedot>
-                        <Timelinedate>2020</Timelinedate>
-                            <Timelinecontent>
-                                <Subheading>Title</Subheading>
-                                <Text>WRITING ABOUT MY EXPERIENCE</Text>
+                                <Subheading>Management Lead</Subheading>
+                                <Subheading2>HACKODISHA</Subheading2>
+                                {/* <Text>WRITING ABOUT MY EXPERIENCE</Text> */}
                             </Timelinecontent>
                         </div>
 
