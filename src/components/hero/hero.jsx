@@ -52,7 +52,7 @@ const Hero = () =>{
                     <h1>I am <span>Kumar Shantanu</span></h1>
                     <h2>I am a web developer</h2>
 
-                    <Link href='https://drive.google.com/file/d/1tLljbvkUl0RQMN8xoCEGTJ8aNV6YpyAL/view?usp=sharing' target="_blank" className={classes.resumebutton}>
+                    <Link href='https://drive.google.com/file/d/1k9lkoMzSFx-XF74631CG0LbHnNq0FAhj/view?usp=sharing' target="_blank" className={classes.resumebutton}>
                     <Button className={classes.button}>Download Resume</Button>
                     </Link>
                 </div>
