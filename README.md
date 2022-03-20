@@ -1,5 +1,5 @@
 My personal Portfolio Website.
-https://kr-shantanu.netlify.app/
+https://krshantanu.live/
 <br/>
 
 
